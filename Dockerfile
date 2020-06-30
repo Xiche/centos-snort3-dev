@@ -1,4 +1,4 @@
-FROM centos:latest AS base
+FROM centos:8 AS base
 LABEL maintainer="Michael Altizer <mialtize@cisco.com>"
 
 # Add /usr/local/lib64 to the ldconfig caching paths
